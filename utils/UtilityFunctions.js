@@ -12,8 +12,6 @@ export const normalizePhoneNumber = (phone) => {
     normalizedNumber = phone.slice(-10);
   }
 
-  console.log(normalizedNumber);
-
   // Get the current country code from the device's locale (e.g., "IN", "US")
   const countryCode = "IN"; // e.g., "IN", "US"
 
