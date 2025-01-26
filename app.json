@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Sierra",
-    "slug": "Sierra",
+    "name": "Sierra Legacy",
+    "slug": "sierra-legacy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/sierra.png",
@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/sierra.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.sierra.app",
+      "package": "com.sierra.legacy.app",
       "permissions": [
         "READ_CONTACTS",
         "WRITE_CONTACTS"
@@ -29,13 +29,14 @@
     "web": {
       "favicon": "./assets/sierra.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "cd6bc18b-62a8-4cc0-96e3-52fdbf3e6b4d"
-      }
-    },
     "plugins": [
       "expo-localization"
-    ]
+    ],
+    "owner": "omkumar1234",
+    "extra": {
+      "eas": {
+        "projectId": "be253fc9-b75d-46a5-9b73-4a44fe510f1f"
+      }
+    }
   }
 }
